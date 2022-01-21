@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: rgb(7, 58, 105);
+  display: flex;
+  height: 10vh;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+  align-items: center;
+  justify-content: right;
+  flex-direction: row;
+}
+
+.header nav ul li {
+  list-style: none;
+  color: white;
+  display: inline;
+  padding: 20px;
+}
+
+.parallax1 {
+  background: linear-gradient(
+      115deg,
+      rgba(224, 224, 235, 0.2),
+      rgba(224, 224, 221, 0.4)
+    ),
+    url("city2.jpeg");
+  height: 90vh;
+  width: 100vw;
+  display: flex;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.parallax1-text {
+  border-radius: 10px;
+  font-family: fantasy;
+  padding: 20px;
+  color: white;
+  background-color: rgb(83, 81, 81);
+  display: inline-block;
+}
+.content1 {
+  text-justify: distribute;
+  display: flex;
+  justify-content: center;
+  height: 40vh;
+  flex-direction: column;
+  text-align: center;
+}
+.parallax2 {
+  background: linear-gradient(
+      115deg,
+      rgba(224, 224, 235, 0.1),
+      rgba(224, 224, 221, 0.2)
+    ),
+    url("city5.jpeg");
+  height: 90vh;
+  width: 100vw;
+  display: flex;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.content2 {
+  text-justify: distribute;
+  display: flex;
+  justify-content: center;
+  height: 40vh;
+  flex-direction: column;
+  text-align: center;
+}
+
+.parallax3 {
+  background: linear-gradient(
+      115deg,
+      rgba(224, 224, 235, 0.1),
+      rgba(224, 224, 221, 0.2)
+    ),
+    url("city3.jpg");
+  height: 90vh;
+  width: 100vw;
+  display: flex;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer {
+  text-justify: distribute;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  height: 40vh;
+  flex-direction: column;
+  text-align: center;
+}
+
+.footer p {
+  font-size: 1.2em;
+}
+
+.footer h3 {
+  margin: 20px;
+}
