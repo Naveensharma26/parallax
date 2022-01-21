@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,300&display=swap");
 
 * {
   margin: 0;
@@ -45,7 +45,7 @@
 
 .parallax1-text {
   border-radius: 10px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   padding: 20px;
   color: white;
   background-color: rgb(83, 81, 81);
@@ -55,7 +55,7 @@
   text-justify: distribute;
   display: flex;
   justify-content: center;
-  height: 40vh;
+  height: 100%;
   flex-direction: column;
   text-align: center;
 }
@@ -82,7 +82,7 @@
   text-justify: distribute;
   display: flex;
   justify-content: center;
-  height: 40vh;
+  height: 100%;
   flex-direction: column;
   text-align: center;
 }
